@@ -1,0 +1,273 @@
+header{
+
+    margin-top: 20px;
+    width: 50%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+    color: white;
+}
+header ul li {
+	display: inline;
+
+
+}
+
+header ul li a {
+	
+	color: #ffffff;
+	background-color: #000000;
+	padding: 10px 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+header ul li a:hover {
+	background-color: #ffffee;
+	color: #FF0000;
+}
+
+body {
+	background-image: url("img/imagefondtp1.jpg");
+	width: auto;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+
+}
+
+h2{
+	text-decoration: underline;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+main{
+	width: 75%;
+	margin-top: 30px; 
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+main aside{
+
+	animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari et Chrome */
+    -o-animation: fadein 2s; /* Opera */
+
+	float: left;
+	margin-top: 30px;
+	margin-left: 50px;
+	width: 10%;
+	padding-right: 60px;padding-left: 20px;padding-top: 10px;padding-bottom: 10px;
+
+
+}
+
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.profil {
+
+	animation: fadein 2s;
+   -webkit-animation: fadein 2s; /* Safari et Chrome */
+
+
+	background-color: rgb(255,255,255,0.75);
+	text-align: justify;
+	font-size: 20px;
+	margin-right: 100px;
+	margin-left: 300px;
+	margin-top: 60px;
+	padding: 30px;
+}
+
+.etude {
+
+	animation: fadein 3s;
+   -webkit-animation: fadein 3s; /* Safari et Chrome */
+	
+	background-color: rgb(255,255,255,0.75);
+
+	text-align: justify;
+	font-size: 20px;
+	margin-right: 100px;
+	margin-left: 300px;
+	margin-top: 60px;
+	padding: 30px;
+	margin-bottom: 30px;
+
+}
+
+
+
+.photo {
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+  
+}
+
+.footer {
+	
+	
+    /*box-shadow: inset 5px 0 5px -5px black;*/
+    background-color: white;
+    height: 40px;
+	background-color: rgb(255,255,255,0.75);
+	width:100%;
+	bottom: 0;
+	left: 0; 
+	float: left;
+	
+	
+
+}
+
+.footer p, img{
+
+	display: inline-grid;
+
+
+
+}
+
+
+
+
+
+
+#exp{
+	
+	width: 75%;
+	animation: fadein 3s;
+   -webkit-animation: fadein 3s; /* Safari et Chrome */
+	
+	background-color: rgb(255,255,255,0.75);
+
+	text-align: justify;
+	font-size: 17px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 60px;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+
+
+
+.Boite h3{
+	text-decoration: underline;
+}
+
+.Boite{
+
+	display: inline-block;
+	background-color: white;
+	opacity: 0.8;
+   	width: 25%;
+  	height: 325px;
+  	-webkit-box-shadow: -8px -10px 33px 21px rgba(209,205,209,0.72);
+	-moz-box-shadow: -8px -10px 33px 21px rgba(209,205,209,0.72);
+	box-shadow: -8px -10px 33px 21px rgba(209,205,209,0.72)
+    
+    margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 30px;
+  	margin-bottom: 30px;
+  	padding-left: 10px;
+
+  	float: left;
+    
+
+}
+
+
+
+.Boite:hover {
+
+
+}
+
+
+
+
+
+
+.Boite p{
+	font-size: 16px;
+}
+
+#Boite1{
+	margin-right: 40px;
+	margin-left: 8%;
+}
+
+#Boite3 {
+	margin-left: 40px;
+}
+
+
+
+
+
+
+.interet {
+
+	animation: fadein 2s;
+   -webkit-animation: fadein 2s; /* Safari et Chrome */
+height: auto;
+
+	background-color: rgb(255,255,255,0.75);
+	text-align: justify;
+	font-size: 20px;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-top: 60px;
+	padding: 30px;
+}
+.interet h5 {
+	text-decoration: underline;
+}
+
+.interet aside {
+	float: right;
+}
+
+
+.formulaire {
+
+	animation: fadein 2s;
+   -webkit-animation: fadein 2s; /* Safari et Chrome */
+	width: 45%;
+
+	background-color: rgb(255,255,255,0.75);
+	text-align: justify;
+	font-size: 20px;
+	margin-right: auto;
+	margin-left: 150px;
+	margin-bottom: 30px;
+	float: left;
+	margin-top: 60px;
+	padding: 30px;
+}
+
+.logo {
+
+	float: left;
+	margin-top:125px ;
+	margin-left: 150px ;
+}
